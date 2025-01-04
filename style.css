@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* Awal style css header */
+header {
+  display: flex;
+  background-color: #fff;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  font-weight: 400;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 999999;
+  border-bottom: 1px solid #ded3d3;
+}
+header .login-header {
+  height: 33px;
+  width: 100px;
+  background-color: #00CED1;
+  color: #fff;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+header .login-header:hover {
+  cursor: pointer;
+  background-color: #5ba0a1;
+}
+header nav.nav-header ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+header nav.nav-header ul li {
+  list-style-type: none;
+}
+header nav.nav-header ul li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+header nav.nav-header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header .logo-header {
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+}
+header .logo-header:hover {
+  cursor: pointer;
+}
+header .logo-header img {
+  width: 80px;
+}
+.menu-mobile {
+  display: none;
+}
+/* Akhir style css header */
+/* landing */
+main .container-landing {
+  display: flex;
+  background-color: #fff;
+  height: 100vh;
+  justify-content: space-around;
+}
+/* landing kiri */
+main .container-landing .landing-kiri {
+  width: 50%;
+  padding-left: 140px;
+  padding-top: 12%;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+main .container-landing .landing-kiri h2 {
+  font-size: 2.5rem;
+}
+button.mulai-button {
+  height: 33px;
+  width: 100px;
+  background-color: #00CED1;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+button.mulai-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+button.mulai-button:hover {
+  cursor: pointer;
+  background-color: #00CED1
+  transform:#5ba0a1 translate(-0.05em, -0.05em);
+}
+button.jelajahi-button {
+  height: 33px;
+  width: 100px;
+  border: 2px solid #00CED1;
+  border-radius: 30px;
+  color: #000;
+  margin-top: 30px;
+}
+button.jelajahi-button a {
+  text-decoration: none;
+  color: #000000;
+}
+button.jelajahi-button:hover {
+  cursor: pointer;
+  border: 2px solid #00CED1;
+  transform: translate(-0.05em, -0.)
+}
